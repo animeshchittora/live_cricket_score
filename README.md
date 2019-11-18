@@ -5,7 +5,7 @@ Steps for setup:----
 
 Go to https://www.cricapi.com/ and signup.
 
-There it will generate an api key which you have to put in the program to get the live scores.
+There it will generate an api key which you have to put in the python program to get the live scores.
 
 You have to put in line (self.apikey="api_key")
 
