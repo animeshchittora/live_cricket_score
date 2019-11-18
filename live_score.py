@@ -6,7 +6,7 @@ class Score:
 	def __init__(self):
 		self.url_of_matches="http://cricapi.com/api/matches"
 		self.get_score="http://cricapi.com/api/cricketScore"
-		self.apikey="9uUQRAhgCKQGfSYkOE0pPITJXTD3"
+		self.apikey="Your Generated api Key"       #Put your generated api key here.
 		self.unique_id=""
 
 	def get_unique_id(self):
@@ -31,12 +31,8 @@ class Score:
 		if not uid_found:
 			self.unique_id=-1
 
-
-
 		send_data=self.get_current_score(self.unique_id)
 		print(send_data)
-
-
 
 	def get_current_score(self,unique_id):
 		data=""
